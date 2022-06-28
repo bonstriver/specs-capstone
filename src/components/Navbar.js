@@ -29,14 +29,14 @@ function Navbar() {
         <nav className="navbar">
             <div className='navbar-container'>
                 <Link to="/" className='navbar-logo'>
-                    F U N K Y T O W N <i className='fab fa-typo3'/>
+                    Wayward <i className='fab fa-typo3'/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas-fa-times' : 'fas fa-bars'}/>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
